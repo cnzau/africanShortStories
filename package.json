@@ -1,0 +1,11 @@
+{
+  "name": "short-stories",
+  "version": "1.0.0",
+  "description": "This is an app with diffrent *African short stories*. Some of the stories are picked from the internet and eBooks of different writers.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.9.1"
+  },
+  "author": "clement",
+  "license": "ISC"
+}
