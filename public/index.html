@@ -21,7 +21,8 @@
 
 	</head>
 
-	<body>
+ 	<!-- declare our angular application and angular controller -->
+	<body class="container" ng-app="shortStories" ng-controller="mainController as main">
 		
 		<header>
 			<nav class="navbar navbar-default">
@@ -38,6 +39,7 @@
 		<!-- MAIN CONTENT AND INJECTED VIEWS -->
 		<main>
 
+			<div ng-view></div>
 
 		</main>
 
