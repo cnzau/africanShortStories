@@ -6,11 +6,16 @@ angular.module('routerRoutes', ['ngRoute'])
 		$routeProvider
 	// route for the home page
 	.when('/', { templateUrl : 'views/pages/home.html' })
+
+	// route for the ruth's story
+	.when('/stories/story_of_ruth', { templateUrl : 'views/pages/story_of_ruth.html' })
 	// route for the stories page
 	.when('/stories', {
 	templateUrl : 'views/pages/stories.html',
 	controller : 'aboutController',
 	controllerAs: 'stories'
 	});
-
+	
+	// set our app up to have pretty URLS
+	$locationProvider.html5Mode(true);
 });
