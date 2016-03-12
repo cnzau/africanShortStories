@@ -1,5 +1,5 @@
 // name our angular app
-angular.module('shortStories', [])
+angular.module('shortStories', ['routerRoutes'])
 .controller('mainController', function() {
 	// bind this to vm (view-model)
 	var vm = this;
