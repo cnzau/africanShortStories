@@ -1,6 +1,12 @@
 /*
 font-family: 'Playfair Display SC', serif;	WEB TITLE
-font-family: 'Noto Serif', serif;	
+font-family: 'Noto Serif', serif;	font-style: italic;
 font-family: 'Oswald', sans-serif;
 font-family: 'Tangerine', cursive;
+family=Playfair+Display+SC:900italic|Noto+Serif:400,700italic|Oswald:300|Tangerine
 */
+#web_title { font-family: 'Playfair Display SC', serif; font-weight: 900; font-size: 48px; }
+#title { font-family: 'Noto Serif', serif; font-weight: 700; font-size: 48px;}
+#subtitle { font-family: 'Noto Serif', serif; font-weight: 700; font-size: 16px; }
+#content{ font-family: 'Noto Serif', serif; font-weight: 400; font-size: 14px; }
+#author { font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 12px; }
