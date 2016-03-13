@@ -13,7 +13,9 @@ angular.module('routerRoutes', ['ngRoute'])
 	// route for the ruth's story
 	.when('/stories/getting_somewhere', { templateUrl : 'views/pages/getting_somewhere.html' })
 	// route for the calabash kids story
-	.when('/stories/calabash_kids', { templateUrl : 'views/pages/stories/calabash_kids.html' });
+	.when('/stories/calabash_kids', { templateUrl : 'views/pages/stories/calabash_kids.html' })
+	// route for the kings_daughters story
+	.when('/stories/kings_daughters', { templateUrl : 'views/pages/stories/kings_daughters.html' });
 	
 	// set our app up to have pretty URLS
 	$locationProvider.html5Mode(true);
