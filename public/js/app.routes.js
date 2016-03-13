@@ -16,6 +16,8 @@ angular.module('routerRoutes', ['ngRoute'])
 	.when('/stories/calabash_kids', { templateUrl : 'views/pages/stories/calabash_kids.html' })
 	// route for the kings_daughters story
 	.when('/stories/kings_daughters', { templateUrl : 'views/pages/stories/kings_daughters.html' })
+	// route for the tortoise_dog_farmer story
+	.when('/stories/tortoise_dog_farmer', { templateUrl : 'views/pages/stories/tortoise_dog_farmer.html' })
 	// route for the cheetah_and_lazy_hunter story
 	.when('/stories/cheetah_and_lazy_hunter', { templateUrl : 'views/pages/stories/cheetah_and_lazy_hunter.html' });
 	
