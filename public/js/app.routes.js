@@ -10,8 +10,10 @@ angular.module('routerRoutes', ['ngRoute'])
 	.when('/stories', { templateUrl : 'views/pages/stories.html' })
 	// route for the ruth's story
 	.when('/stories/story_of_ruth', { templateUrl : 'views/pages/story_of_ruth.html' })
-	// route for the ruth's story
+	// route for getting_somewhere
 	.when('/stories/getting_somewhere', { templateUrl : 'views/pages/getting_somewhere.html' })
+	// route for The Great King story
+	.when('/stories/great_king', { templateUrl : 'views/pages/stories/great_king.html' })
 	// route for the calabash kids story
 	.when('/stories/calabash_kids', { templateUrl : 'views/pages/stories/calabash_kids.html' })
 	// route for the proud_princes story
