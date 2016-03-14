@@ -14,12 +14,16 @@ angular.module('routerRoutes', ['ngRoute'])
 	.when('/stories/getting_somewhere', { templateUrl : 'views/pages/getting_somewhere.html' })
 	// route for the calabash kids story
 	.when('/stories/calabash_kids', { templateUrl : 'views/pages/stories/calabash_kids.html' })
+	// route for the proud_princes story
+	.when('/stories/proud_princes', { templateUrl : 'views/pages/stories/proud_princes.html' })
 	// route for the kings_daughters story
 	.when('/stories/kings_daughters', { templateUrl : 'views/pages/stories/kings_daughters.html' })
 	// route for the tortoise_dog_farmer story
 	.when('/stories/tortoise_dog_farmer', { templateUrl : 'views/pages/stories/tortoise_dog_farmer.html' })
 	// route for the cheetah_and_lazy_hunter story
-	.when('/stories/cheetah_and_lazy_hunter', { templateUrl : 'views/pages/stories/cheetah_and_lazy_hunter.html' });
+	.when('/stories/cheetah_and_lazy_hunter', { templateUrl : 'views/pages/stories/cheetah_and_lazy_hunter.html' })
+	// route for the baby_mouse_and_baby_snake story
+	.when('/stories/baby_mouse_and_baby_snake', { templateUrl : 'views/pages/stories/baby_mouse_and_baby_snake.html' });
 	
 	// set our app up to have pretty URLS
 	$locationProvider.html5Mode(true);
