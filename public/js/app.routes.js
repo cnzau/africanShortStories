@@ -18,10 +18,14 @@ angular.module('routerRoutes', ['ngRoute'])
 	.when('/stories/calabash_kids', { templateUrl : 'views/pages/stories/calabash_kids.html' })
 	// route for the proud_princes story
 	.when('/stories/proud_princes', { templateUrl : 'views/pages/stories/proud_princes.html' })
+	// route for the pregnant virgin story
+	.when('/stories/pregnant_virgin', { templateUrl : 'views/pages/stories/pregnant_virgin.html' })
 	// route for the kings_daughters story
 	.when('/stories/kings_daughters', { templateUrl : 'views/pages/stories/kings_daughters.html' })
 	// route for the tortoise_dog_farmer story
 	.when('/stories/tortoise_dog_farmer', { templateUrl : 'views/pages/stories/tortoise_dog_farmer.html' })
+	// route for the why_bat_flies_at_night story
+	.when('/stories/why_bat_flies_at_night', { templateUrl : 'views/pages/stories/why_bat_flies_at_night.html' })
 	// route for the cheetah_and_lazy_hunter story
 	.when('/stories/cheetah_and_lazy_hunter', { templateUrl : 'views/pages/stories/cheetah_and_lazy_hunter.html' })
 	// route for the baby_mouse_and_baby_snake story
