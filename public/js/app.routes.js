@@ -23,7 +23,9 @@ angular.module('routerRoutes', ['ngRoute'])
 	// route for the cheetah_and_lazy_hunter story
 	.when('/stories/cheetah_and_lazy_hunter', { templateUrl : 'views/pages/stories/cheetah_and_lazy_hunter.html' })
 	// route for the baby_mouse_and_baby_snake story
-	.when('/stories/baby_mouse_and_baby_snake', { templateUrl : 'views/pages/stories/baby_mouse_and_baby_snake.html' });
+	.when('/stories/baby_mouse_and_baby_snake', { templateUrl : 'views/pages/stories/baby_mouse_and_baby_snake.html' })
+	// route for the childs_dream story
+	.when('/stories/childs_dream', { templateUrl : 'views/pages/stories/childs_dream.html' });
 	
 	// set our app up to have pretty URLS
 	$locationProvider.html5Mode(true);
