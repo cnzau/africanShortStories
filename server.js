@@ -12,5 +12,5 @@ app.get('*', function(req, res) {
 });
 
 // start the server on port 8080 (http://localhost:8080)
-app.listen(8080);
-console.log('Magic happens on port 8080.');
+app.listen(8000);
+console.log('Magic happens on port 8000.');
