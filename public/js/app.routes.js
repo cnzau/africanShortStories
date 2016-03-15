@@ -12,6 +12,8 @@ angular.module('routerRoutes', ['ngRoute'])
 	.when('/stories/story_of_ruth', { templateUrl : 'views/pages/story_of_ruth.html' })
 	// route for getting_somewhere
 	.when('/stories/getting_somewhere', { templateUrl : 'views/pages/getting_somewhere.html' })
+	// route for The Twins story
+	.when('/stories/the_twins', { templateUrl : 'views/pages/stories/the_twins.html' })
 	// route for The Great King story
 	.when('/stories/great_king', { templateUrl : 'views/pages/stories/great_king.html' })
 	// route for the calabash kids story
