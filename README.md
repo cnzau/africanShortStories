@@ -1,5 +1,5 @@
 # AFRICAN SHORT STORIES
-Web-site link: https://africanshortstories.herokuapp.com/
+Web-site link: http://africanshortstories.herokuapp.com/
 
 
 This is an app with diffrent *African short stories*.
